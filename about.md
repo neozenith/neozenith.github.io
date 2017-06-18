@@ -18,10 +18,10 @@ to solve those problems for you.
 
 So here is a list of my digital portfolio:
 
- - {% icon fa-linkedin-square %} [LinkedIn](https://au.linkedin.com/in/neozenith)
- - {% icon fa-stackoverflow %} [Stackoverflow](http://stackoverflow.com/users/622276/neozenith)
- - {% icon fa-github %} [Github](https://github.com/neozenith)
- - {% icon fa-gitlab %} [Gitlab](https://gitlab.com/neozenith)
+ - [LinkedIn](https://au.linkedin.com/in/neozenith)
+ - [Stackoverflow](http://stackoverflow.com/users/622276/neozenith)
+ - [Github](https://github.com/neozenith)
+ - [Gitlab](https://gitlab.com/neozenith)
 
 If you see mention of me as *Josh Wilson*, that is my former name before I took
 my wife's family name *Peak*. Yes I am progressive like that, taking my wife's 

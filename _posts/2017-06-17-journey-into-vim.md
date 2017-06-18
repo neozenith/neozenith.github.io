@@ -57,15 +57,17 @@ personal productivity which were game changers in how I think:
 
 I like to run a lot for recreation and fitness and this rings true with the idea
 of your *running economy*. Least amount of effort to achieve the same distance and time.
-Suddenly this is an optimisation problem I need to tune to squeeze efficiency in 
+Suddenly this is an optimisation problem I need to tune, to squeeze efficiency in 
 being a faster, better, stronger developer.
 
  - *You should figure out how to do what you do in a 38 hour week in 37 hours of work, every week.*
 
-This means that if I figure out some hack that saves me an hour, I can be 39
+This means that if I figure out some hack that saves me an hour, I can be ~39
 hours of productive in 38 hours the following week. In theory (38/37)^52 means
 you should be 4x more productive at the end of the year than you were at the start.
 This philosophy compounds like a long term investment into yourself.
+
+So combined both strive to reduce physical effort and time. 
 
 **Conclusion**
 
