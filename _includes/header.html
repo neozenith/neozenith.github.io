@@ -1,6 +1,12 @@
 <header class="site-header" role="banner">
 
   <img src="{{ site.baseurl }}{% link images/blog-header.jpg %}" />  
+  <img 
+    src="{{ site.baseurl }}{% link images/profile_circle.png %}" 
+    width=15%
+    style="margin-top: -40%; margin-left: 42%;"
+    />  
+
   <div class="wrapper">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
