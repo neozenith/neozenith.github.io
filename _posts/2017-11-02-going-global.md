@@ -28,3 +28,15 @@ my favourite style of presentation. Any comments or feedback please get in touch
 with me via <a href="https://www.linkedin.com/in/neozenith/">LinkedIn</a>
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSy6gUjXqcK6CyNSr344Lp91JVkOsk4XBDSGqBlIVDoS0jqwwzzRW36uJkq8Rxp4rAzDQp9fVhIQ3qp/embed?start=false&loop=false&delayms=15000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+## Homework
+
+If you haven't read The Lean Startup by Eric Ries, I highly recommend it as it
+also captures some of these ideas and lessons.
+
+<a href="http://a.co/5vBl2yW">The Lean Startup on Audible</a>
+
+Follow the link above if you would like to get the audiobook version from 
+Audible. Your first book is free. I also receive no commission or profit if 
+you follow the link, I just liked the book that much. 
+
