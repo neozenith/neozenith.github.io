@@ -5,6 +5,19 @@ date:   2017-06-16 12:21:44 +1000
 categories: dev
 ---
 
+<img style="float:right; align: right;" src="{{ site.baseurl }}{% link images/vim-bonsai.svg %}" />
+
+# Introduction
+
+The Vim bonsai logo I have made here is a symbol of my vim journey and my dotfiles.
+It all starts with a seed and then you nurture it and also prune it for your 
+own environment and changing conditions. 
+
+Each person's Vim journey is different for this reason.
+
+And yes, I created the Vim Bonsai in Vim.
+
+
 # My Configuration
 
 ![screenshot]({{ site.baseurl }}{% link images/example1.png %})
@@ -109,91 +122,6 @@ These blogs have been hugely influential and informative in making the switch.
  - Type `:q` to exit
  - Type `:q!` to force exit without saving
 
-### Vim in 5 minute
-
- - [Modal Text editing](#modal-text-editing)
- - [Copy and Pasting](#copy-and-pasting)
- - [Clipboards](#clipboards)
- - [Search and Replace](#search-and-replace)
- - [Movement](#movement)
-
-#### Modal Text editing
-
-Vim has 3 modes which logically scope the types of tasks you perfom text 
-editing. This scoping allows shortcuts to have a context and forces you to
-really think about the nature and types of tasks you perform editing text.
-
-**Normal Mode**
- - If you hit `ESC` enough times you'll return to this mode
- - This is your main navigation and command input mode
-
-**Insert Mode**
- - You enter this mode from *Normal Mode* by:
-    - `i`nsert
-    - `I`nsert at start of line
-    - `A`ppend to end of line 
- - `ESC` to return to *Normal Mode*
-
-**Visual Mode**
- - This mode selects text to perform operations. You enter by:
-   - `v` - select character by character
-   - `V` - select line by line
-
-#### Copy and Pasting
-
- - `y`ank (copy) text selected
- - `Y`ank (copy) entire line selected
- - `p`aste after cursor
- - `P`aste before cursor
- - `x` (cut) text selected
- - `X` (cut) lines selected
-
-#### Clipboards
-
-Vim has it's own clipboard which is not connected to the system clipboard by
-default. It has the concept of named buffers and the system clipboard is a 
-specially named buffer to which you apply the above actions.
-
- - `"aY` - Yank current line to clipboard `"a`
- - `"ap` - Paste the contents of clipboard `"a` after the cursor
- - `"*Y` - Yank the current line into the system clipboard `"*`
- - `"*p` - Paste the contents of the system clipboard `"*` after the cursor
-
-#### Search and Replace
-
-From *Normal Mode*
-
- - `/search-phrase` will search forward for `search-phrase`
- - `n` will tab to the next search result
- - `?search-phrase` will search backwards
- - `N` will tab backwards for next search match
- - `:%s/old/new/g` - will replace `old` with `new` everywhere in document
-   - `:%s/old/new/gc` - make each change require confirmation
-   - `old` could be a Regex
-   - The `s/old/new/g` syntax is the same as the `sed` unix tool.
- - From *Visual mode* make a selection then type `:` and it will have `:'<,'>`
- - Complete this to look like: `:'<,'>s/old/new/g` to search and replace all
-   `old` for `new` in the selected region.
-
-#### Movement
-
-This is where Vim diverges from your normal text editors. You may be aware of
-`Home` and `End` keys that take you to the start and end of a line. Or how on a 
-Mac holding Alt + -> will jump word by word.
-
-Vim can jump forward an backward:
- - Character by character (Arrow keys)
- - Word by word (`w` word forward, `b` word backward)
- - Sentence by sentence ( `)` sentence forward, `(` sentence backward)
- - Paragraph by paragraph ( `}` paragraph forward, `{` paragraph backward)
- - Heading or brackets ( `]]` section forward, `[[` section backward)
- - Matching parenthesis, bracket or brace (`%`)
-
-Vim has an understanding of the text structures. See *knowing where you want 
-to go* in [Vim Revisited][vim-revisited] for more details.
-
- 
-
 ### Vim in 30 minutes
 
 There is a common misconception that Vim has a huge learning curve and takes
@@ -205,4 +133,6 @@ Type `vimtutor` at the command line and work through the lessons. That's it!
 
 What takes years is, shaping and crafting your editor to suit you as you 
 personally evolve over the years. The reason Vim has lasted for so many years
-is because it is so extensible it has evolved capabilities through plugins.
+is because it is so extensible it has evolved capabilities through plugins. If 
+you are a programmer you have no excuse to make your editor do exactly what you
+want it to do.
