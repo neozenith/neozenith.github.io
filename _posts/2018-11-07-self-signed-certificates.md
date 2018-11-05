@@ -57,7 +57,9 @@ rummaging through and resealing your parcels.
 
 We have established trust again.
 
-So if your corporate proxy is claiming it is doing this, you have to update _everyone's_ trust stores.
+So if your corporate proxy is claiming it is doing this, you have to update _everyone's_ trust stores. This is a lot of work.
+
+Every new computer, every rebuild, every tool.... This is a growing cost of lost time.
 
 # Paradox
 
@@ -67,10 +69,10 @@ So employees get into the habit of letting anyone rummage through your mail.
 
 This has openned up an attack vector for a legitimately malicious MitM attack.
 
-When really the option whitelist this one and only certificate should have been an option. Every subsequent untrusted certificate should
-be treated with the same amount of skepticism the first one gathered.
+When really, the option to whitelist this one and only certificate, should have been an option. 
+Every subsequent untrusted certificate should be treated with the same amount of skepticism the first one gathered.
 
-Rather than fostering of security, we have a culture of complacency.
+Rather than fostering a culture of security, we have a culture of complacency.
 
 So how secure is your security protocol after all?
 
