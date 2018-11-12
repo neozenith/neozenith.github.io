@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Personal Blog of Josh Peak - A Caffeneited Release Valve",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neozenith/neozenith.github.io.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Josh Peak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neozenith/neozenith.github.io/issues"
+  },
+  "homepage": "https://github.com/neozenith/neozenith.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^0.14.4"
+  }
+}
