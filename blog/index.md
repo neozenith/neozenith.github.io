@@ -1,4 +1,6 @@
-# Josh Peak - A Caffeinated Release Valve
+---
+layout: Home
+---
 
  - [Going Global: Scaling](posts/2017-11-02-going-global.md)
  - [Journey Into Vim](posts/2017-06-17-journey-into-vim.md)

@@ -4,7 +4,7 @@ date:   2017-06-16 12:21:44 +1000
 categories: dev
 ---
 
-<img style="float:right; align: right;" src="/images/vim-bonsai.svg" />
+<img style="float:right; align: right;" :src="$withBase('/images/vim-bonsai.svg')" alt="Animated Bonsai Image" />
 
 # Introduction
 
@@ -19,7 +19,7 @@ And yes, I created the Vim Bonsai in Vim.
 
 # My Configuration
 
-![screenshot](/images/example1.png)
+<img :src="$withBase('/images/example1.png')" alt="Screenshot of Vim"/>
 
 Before we get too deep into the rabbit hole that is Vim have a look at my [my Vim configuration](https://github.com/neozenith/dotfiles) and the screenshot above too see where I am heading.
 
