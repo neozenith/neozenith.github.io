@@ -1,6 +1,9 @@
----
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
----
+# Josh Peak - A Caffeinated Release Valve
+
+ - [Going Global: Scaling](posts/2017-11-02-going-global.md)
+ - [Journey Into Vim](posts/2017-06-17-journey-into-vim.md)
+ - [Can I Trust This Data?](posts/2016-11-12-unit-test-data.md)
+ - [Moving to VuePress](posts/2018-11-13-vuepress.md)
+
+
+[About Me](/about/)

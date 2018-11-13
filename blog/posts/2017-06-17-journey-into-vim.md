@@ -1,11 +1,10 @@
 ---
-layout: post
 title:  "Journey Into Vim"
 date:   2017-06-16 12:21:44 +1000
 categories: dev
 ---
 
-<img style="float:right; align: right;" src="{{ site.baseurl }}{% link images/vim-bonsai.svg %}" />
+<img style="float:right; align: right;" src="/images/vim-bonsai.svg" />
 
 # Introduction
 
@@ -20,9 +19,9 @@ And yes, I created the Vim Bonsai in Vim.
 
 # My Configuration
 
-![screenshot]({{ site.baseurl }}{% link images/example1.png %})
+![screenshot](/images/example1.png)
 
-Before we get too deep into the rabbit hole that is Vim have a look at my [my Vim configuration](https://github.com/neozenith/vim-dotfiles) and the screenshot above too see where I am heading.
+Before we get too deep into the rabbit hole that is Vim have a look at my [my Vim configuration](https://github.com/neozenith/dotfiles) and the screenshot above too see where I am heading.
 
 I am quite proud of where I have got my vim configuration to because it 
 satisfies a list of motivations that have built up over my career and has started 
@@ -113,26 +112,3 @@ These blogs have been hugely influential and informative in making the switch.
 [coming-home]: http://stevelosh.com/blog/2010/09/coming-home-to-vim/
 [text-objects]: http://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/
 
-### Vim in 10 Seconds
-
- - Press `i` to enter *Insert Mode*
-    - This is now like a regular text editor
- - Press `ESC` to finish editing
- - Type `:wq` to save & exit
- - Type `:q` to exit
- - Type `:q!` to force exit without saving
-
-### Vim in 30 minutes
-
-There is a common misconception that Vim has a huge learning curve and takes
-years to understand.
-
-**WRONG**
-
-Type `vimtutor` at the command line and work through the lessons. That's it!
-
-What takes years is, shaping and crafting your editor to suit you as you 
-personally evolve over the years. The reason Vim has lasted for so many years
-is because it is so extensible it has evolved capabilities through plugins. If 
-you are a programmer you have no excuse to make your editor do exactly what you
-want it to do.

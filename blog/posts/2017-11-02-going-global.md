@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Going Global: Lessons About Startup Growth"
 date:   2017-10-12 12:21:44 +1000
 categories: presentation
