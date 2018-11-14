@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "Self-Signed Certificates"
 date:   2018-11-07 12:21:44 +1000
-categories: dev
+description: "A rant on Corporate Proxies causing an oxymoron of security practices."
+categories: security
 ---
 
 # Context
@@ -46,7 +46,18 @@ There are many reasons to not trust the Passport Office and become your own trus
 
 First and foremost, getting these certificates signed and updated annually is expensive.
 
-_find citation_
+DigiCert is selling [Extended Validation Certificates for US$299/year](https://www.digicert.com/compare-and-buy-ssl-certificates/).
+
+But then there is this gem from the [AWS certificate manager FAQs](https://aws.amazon.com/certificate-manager/faqs/#ACM_Private_Certificate_Authority)
+
+> **Q: What are self-signed certificates and why should organizations use certificates from a private CA instead?**
+> 
+> Self-signed certificates are those which are issued without a CA. Unlike certificates issued from a secure root maintained by a CA, self-signed certificates act as their own root, and as a result they have significant limitations: they can be used to provide on the wire encryption but not to verify identity, and they cannot be revoked. **They are unacceptable from a security perspective, but organizations use them nonetheless because they are easy to generate, require no expertise or infrastructure, and many applications accept them**. There are no controls in place for issuing self-signed certificates. Organizations that use them incur greater risk of outages caused by certificate expirations because they have no way to track expiration dates. ACM Private CA solves these problems.
+
+Yet if they don't want the organisation validation (OV) or extended validation (EV)
+and domain validation is sufficient then there is the [Lets Encrypt](https://letsencrypt.org/) initiative. 
+
+> _Free, automated and open_.
 
 The next problem is: _why should people trust you?_
 

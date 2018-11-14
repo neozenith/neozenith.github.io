@@ -1,7 +1,7 @@
 ---
-layout: post
 title:  "Scaling: Lessons About Startup Growth"
 date:   2018-03-21 12:21:44 +1000
+description: "Presentation on how all your design decisions break at some scale. Using head count as a metaphor."
 categories: presentation
 ---
 # Scaling: Lessons about Startup Growth

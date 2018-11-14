@@ -1,6 +1,7 @@
 ---
 title:  "Going Global: Lessons About Startup Growth"
 date:   2017-10-12 12:21:44 +1000
+description: "Presentation on how all your design decisions break at some scale. Using head count as a metaphor."
 categories: presentation
 ---
 # Going Global: Lessons about Startup Growth

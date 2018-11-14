@@ -1,8 +1,10 @@
 ---
 title:  "Can I Trust This Data?"
 date:   2017-06-16 12:21:44 +1000
+description: "YOW!Data 2016 talk I gave on Unit Testing Data"
 categories: data
 ---
+
 # Unit Test Your Data
 
 ## Abstract

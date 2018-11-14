@@ -1,6 +1,7 @@
 ---
 title:  "Journey Into Vim"
 date:   2017-06-16 12:21:44 +1000
+description: "Detailing and recapping to myself why I got into vim and continue to practice the vim way."
 categories: dev
 ---
 
