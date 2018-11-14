@@ -6,9 +6,12 @@ module.exports = {
   ],
   themeConfig: {
       nav: [
-          { text: 'Home', link: '/' },
-          { text: 'Posts', link: '/posts/' },
-          { text: 'About', link: '/about/' }
+        { text: 'Home', link: '/' },
+        { text: 'Posts', link: '/posts/' },
+        { text: 'LinkedIn', link: 'https://au.linkedin.com/in/neozenith' },
+        { text: 'Github', link: 'https://github.com/neozenith' },
+        { text: 'About', link: '/about/' }
       ]
-  }
+  },
+  dest: "dist"
 }
