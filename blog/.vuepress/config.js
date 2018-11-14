@@ -13,5 +13,5 @@ module.exports = {
         { text: 'About', link: '/about/' }
       ]
   },
-  dest: "dist"
+  dest: "build"
 }

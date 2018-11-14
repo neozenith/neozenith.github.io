@@ -6,15 +6,18 @@ I drink coffee, I like running. So I have a tendency to go from thinking fast to
 
 ## Blog maintenance
 
+Development is on `vuepress` branch.
+Production is on `master` branch.
+
 This blog is written using [VuePress](https://vuepress.vuejs.org/). Shrink wraps
 VueJS, Nuxt and Webpack to consume markdown and give a VueJS SPA.
 
 Chosen because it is simple and adds better support for technical documentation
 and the abillity to expand capabilities for embedding custom components.
 
-Which is what I'd like to do more of with embedding D3 visualisations.
+Which is what I'd like to do more of with embedding D3 visualisations in components.
 
-### Starting
+### Developing
 
 ```bash
 npm install
@@ -24,5 +27,5 @@ npm run dev
 ### Publishing
 
 ```bash
-npm run build
+./deploy.sh
 ```
