@@ -7,6 +7,6 @@ categories: data
 
 # Vue + VegaLite
 
-Below is a work in progress to embed a simple vegalite datavisualisation.
+Below is a work in progress to embed a simple vegalite data visualisation.
 
-<SPLOM />
+<Dashboard />
