@@ -22,10 +22,7 @@
   },
   "homepage": "https://github.com/neozenith/neozenith.github.io#readme",
   "devDependencies": {
-    "vuepress": "^0.14.8"
+    "vuepress": "^1.0.1"
   },
-  "dependencies": {
-    "vega-embed": "^3.24.2",
-    "vue-vega": "^1.0.0-alpha.13"
-  }
+  "dependencies": {}
 }
