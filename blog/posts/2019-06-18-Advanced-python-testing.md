@@ -4,18 +4,13 @@ date:   2019-06-18 10:21:44 +1000
 description: "Documenting the rabbit hole of testing tools and options in Python"
 categories: dev
 ---
-# Contents
 
-The article is laid out in a few main sections:
-
- - [Overview](#overview): If you only have a few minutes
- - [Background About Me](#background-about-me): Feel free to skip, but it gives context about my motivation.
- - [Training Montage](#training-montage): Narrative around some very helpful learning resources
- - [Basic Code Quality](#basic-code-quality): If you are new to software engineering and testing, please read.
- - [Advanced Testing](#advanced-testing): Leveraging Mocks, Stubs, Spies, Monkey Patches and Fixtures.
- - [Conclusion](#conclusion): My key take aways if you only have 5 minutes.
- - [References](#references): Links to all resources mentioned.
-
+<div align=center>
+<img
+  :src="$withBase('/images/cover.jpg')"
+  alt="Book Cover"
+/>
+</div>
 
 # Overview
 
@@ -44,13 +39,24 @@ It creates `.yml` files to record the http requests per test on the first run, t
 
 That's the **tl;dr** but feel free to read through the rest of the narrative or just check out the [list of references](#references) at the end.
 
+# Contents
+
+The article is laid out in a few main sections:
+
+ - [Overview](#overview): If you only have a few minutes
+ - [Background About Me](#background-about-me): Feel free to skip, but it gives context about my motivation.
+ - [Training Montage](#training-montage): Narrative around some very helpful learning resources
+ - [Basic Code Quality](#basic-code-quality): If you are new to software engineering and testing, please read.
+ - [Advanced Testing](#advanced-testing): Leveraging Mocks, Stubs, Spies, Monkey Patches and Fixtures.
+ - [Conclusion](#conclusion): My key take aways if you only have 5 minutes.
+ - [References](#references): Links to all resources mentioned.
 
 
 # Background About Me
 
 A little about me though, I'm a Software Engineer and recently qualified Data Scientist working for Komatsu mining.
 
-> DISCLAIMER: All views expressed hear are my own and do not reflect that of my current employer or any former companies or organisations I have been affiliated with.
+> DISCLAIMER: All views expressed here are my own and do not reflect that of my current employer or any former companies or organisations I have been affiliated with.
 
 **2010-2016**
 
@@ -647,7 +653,7 @@ Who knows, it might be a setting I'm missing, or it might mean I open a Pull Req
 
 Before I wrap up this section though I'd like to mention some plugins that were mentioned on twitter in this space:
 
- - [Snapshot test][snapshotest]
+ - [Snapshot test][snapshottest]
  - [pytest-responses][pytestresponses]
 
 # Conclusion
@@ -658,7 +664,9 @@ With the help of [`pytest-xdist`][pytestxdist] I was able to spread our tests ac
 
 With the help of the [`pytest-vcr`][pytestvcr] plugin I was able to mock out our HTTP traffic in our API test wrappers. This cached response reduced the tests from 14 seconds to 1.4 seconds.
 
+So reducing cycle time to answer questions means we can learn faster. The time it takes for your team to triage bugs and assert truths and expectations means other tasks come down from weeks to days or hours to seconds.
 
+Have fun testing!
 
 # References
 
@@ -718,6 +726,7 @@ Others but untested:
 [black]: https://black.readthedocs.io/en/stable/
 [pytestflake8]: https://pypi.org/project/pytest-flake8/
 [flake8]: http://flake8.pycqa.org/en/latest/index.html
+[flake8docstrings]: https://pypi.org/project/flake8-docstrings/
 [pytestcov]: https://pytest-cov.readthedocs.io/en/latest/
 [coveragepy]: https://coverage.readthedocs.io/en/v4.5.x/
 [pytestmock]: https://pypi.org/project/pytest-mock/
