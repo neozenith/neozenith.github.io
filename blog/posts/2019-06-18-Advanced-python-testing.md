@@ -7,8 +7,8 @@ categories: dev
 
 <div align=center>
 <img
-  :src="$withBase('/images/cover.jpg')"
-  alt="Book Cover"
+  :src="$withBase('/images/books.jpg')"
+  alt="Reference books on my desk"
 />
 </div>
 
