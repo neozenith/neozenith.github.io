@@ -656,6 +656,12 @@ Before I wrap up this section though I'd like to mention some plugins that were 
  - [Snapshot test][snapshottest]
  - [pytest-responses][pytestresponses]
 
+**UPDATE:**
+
+After writing and publishing this article I found a deep and exhaustive collection of articles at [Python Speed](https://pythonspeed.com). In particular this one discussing the topic of _Verified Fakes_ which is kindof what [`pytest-vcr`][pytestvcr] is achieving around the python http library.
+
+ - [https://pythonspeed.com/articles/verified-fakes/](https://pythonspeed.com/articles/verified-fakes/)
+
 # Conclusion
 
 Code quality plugins like [`pytest-black`][pytestblack] and [`pytest-flake8`][pytestflake8] automatically add source files as a linting test that will fail CI but also skip the test if that file hasn't been modified between runs. This caching drops the first test run from 71 seconds to 44 seconds.
