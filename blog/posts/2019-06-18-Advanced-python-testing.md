@@ -656,11 +656,19 @@ Before I wrap up this section though I'd like to mention some plugins that were 
  - [Snapshot test][snapshottest]
  - [pytest-responses][pytestresponses]
 
-**UPDATE:**
+**UPDATE #1:**
 
 After writing and publishing this article I found a deep and exhaustive collection of articles at [Python Speed](https://pythonspeed.com). In particular this one discussing the topic of _Verified Fakes_ which is kindof what [`pytest-vcr`][pytestvcr] is achieving around the python http library.
 
- - [https://pythonspeed.com/articles/verified-fakes/](https://pythonspeed.com/articles/verified-fakes/)
+ - [Verified Fakes](https://pythonspeed.com/articles/verified-fakes/)
+
+**UPDATE #2:**
+
+In an effort to create a local plugin to override the default exception thrown I went down [this rabbit hole on stackoverflow](https://stackoverflow.com/questions/56745834/python-pytest-pytest-exception-interact-customize-exception-information-from-vcr)
+
+And subsequently opened [this pull request](https://github.com/kevin1024/vcrpy/pull/445)
+
+So I can use the standard library [`difflib`](https://docs.python.org/3/library/difflib.html) to create a diff of why the attempted request did not match the recorded request for that specific test.
 
 # Conclusion
 
