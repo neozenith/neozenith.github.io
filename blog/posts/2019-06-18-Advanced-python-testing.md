@@ -670,6 +670,16 @@ And subsequently opened [this pull request](https://github.com/kevin1024/vcrpy/p
 
 So I can use the standard library [`difflib`](https://docs.python.org/3/library/difflib.html) to create a diff of why the attempted request did not match the recorded request for that specific test.
 
+**UPDATE #3:**
+
+In a weird turn of events I finally managed to [answer my question on stackoverflow](https://stackoverflow.com/a/56828754/622276).
+
+In the mean time I met [`arthurHamon2`](https://github.com/arthurHamon2) who was attempting to do the same thing in [PR #439](https://github.com/kevin1024/vcrpy/pull/439) of [`vcrpy`][vcrpy].
+
+Also `kevin1024` granted myself and `arthurHamon2` maintainer privileges.
+
+And finally... there was a bug only showing on CI and not on local dev. Turns out our timestamp functions were using the system timezone and converting it in ways we weren't expecting and would never have known if we were not doing this sort of reproducible testing.
+
 # Conclusion
 
 Code quality plugins like [`pytest-black`][pytestblack] and [`pytest-flake8`][pytestflake8] automatically add source files as a linting test that will fail CI but also skip the test if that file hasn't been modified between runs. This caching drops the first test run from 71 seconds to 44 seconds.
@@ -679,6 +689,8 @@ With the help of [`pytest-xdist`][pytestxdist] I was able to spread our tests ac
 With the help of the [`pytest-vcr`][pytestvcr] plugin I was able to mock out our HTTP traffic in our API test wrappers. This cached response reduced the tests from 14 seconds to 1.4 seconds.
 
 So reducing cycle time to answer questions means we can learn faster. The time it takes for your team to triage bugs and assert truths and expectations means other tasks come down from weeks to days or hours to seconds.
+
+**BONUS:** We were able to detect a rather subtle bug because of the snapshot testing (and newly improved diffing features) of [`vcrpy`][vcrpy]
 
 Have fun testing!
 
