@@ -302,7 +302,7 @@ The goal is to reduce both. The other ~170 tests give me confidence about the re
 
 ## Outer Loop Speed Tuning
 
-**Parallelisation**: To get our outer loop running faster we can run all tests in parallel rather than sequentially using [`pytest-xdist`][pytest-xdist]. This means your tests need to be able to run isolated from each other. Which means all tests are not blocked by a single test and we are limited to available cores. But it means tests that take 30 seconds each are running at the same time and not after each other.
+**Parallelisation**: To get our outer loop running faster we can run all tests in parallel rather than sequentially using [`pytest-xdist`][pytestxdist]. This means your tests need to be able to run isolated from each other. Which means all tests are not blocked by a single test and we are limited to available cores. But it means tests that take 30 seconds each are running at the same time and not after each other.
 
 ```bash
 pytest --cache-clear --disable-vcr -n auto
