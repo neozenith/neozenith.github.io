@@ -331,7 +331,18 @@ pytest -n auto
 
 By using Test Doubles we can mock IO bound operations that spend most of the test waiting for the speed of light to travel around the planet to a cloud.
 
-As fast as this may be it is still 100x slower than our Inner Loop/
+As fast as this may be it is still 100x slower than our Inner Loop.
+
+Finally if you want to find the slowest tests run the following:
+
+```bash
+pytest --durations=2
+========================== slowest 2 test durations ===========================
+23.31s call     koala/io/tests/test_redis.py::TestRedis::test_redis_get_keys
+19.08s call     koala/io/tests/test_redis.py::TestRedis::test_redis_get_filtered_keys
+```
+
+Pytest measures the running time of each individual test automatically.
 
 
 # Refactoring: Less is More
