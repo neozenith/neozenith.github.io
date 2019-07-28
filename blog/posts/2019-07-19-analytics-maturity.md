@@ -2,10 +2,13 @@
 title:  "Analytics Maturity"
 date:   2019-07-19 10:21:44 +1000
 description: "Defining and understanding what are the stages of analytics maturity in an organization."
+image: /images/books.jpg
 categories: dev
 ---
 
-# Analytics Maturity
+# {{$page.title}}
+
+<span style="color: #999;">{{$page.readingTime.text}}...</span>
 
 <div align=center>
 <img
@@ -59,3 +62,10 @@ Source: https://media.giphy.com/media/TPFsF6Gxu2cM0/giphy.gif
 [civis]: https://www.civisanalytics.com/wp-content/uploads/2018/11/The-Civis-guide-to-Analytics-Maturity-2.pdf
 [lindigressions]: http://lineardigressions.com/episodes/2018/5/20/assessing-the-analytics-maturity-of-an-organization
 [mhranalytics]: https://www.mhranalytics.com/data-maturity/
+[lod-stanford]: https://www.lightsondata.com/data-governance-maturity-models-stanford/
+[lod-ibm]: https://www.lightsondata.com/data-governance-maturity-models-ibm/
+[lod-kalido]: https://www.lightsondata.com/data-governance-maturity-models-kalido/
+[lod-dataflux]: https://www.lightsondata.com/data-governance-maturity-models-dataflux/
+[lod-gartner]: https://www.lightsondata.com/data-governance-maturity-models-gartner/
+[lod-oracle]: https://www.lightsondata.com/data-governance-maturity-models-oracle/
+[lod-oun]: https://www.lightsondata.com/data-governance-maturity-models-open-universiteit-nederland/
