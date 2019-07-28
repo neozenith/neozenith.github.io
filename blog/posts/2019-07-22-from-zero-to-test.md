@@ -1,6 +1,7 @@
 ---
 title:  "From Zero to Test: Turning hurdles into steps."
 date:   2019-07-22 
+image: /images/books.jpg
 description: "A few basic principles on testing to overcome that initial 'wall of daunting' and have a framework for successes."
 categories: dev
 ---
@@ -13,13 +14,15 @@ categories: dev
 </div>
 
 
-# Overview
+# {{$page.title}}
 
 I strongly believe you can do a lot with very little when developing software and you don't have to know 100% to have learnt enough to be effective. 
 
 The same is true when automating tests.
 
-This article will layout a few maxims, that if you follow only these, you will go from zero testing to ~80% effective at testing. The [Pareto Principle][pareto] is also called the 80/20 rule. You get 80% of the effect from 20% of the effort, whilst the last 20% of effect requires _the other 80% effort_. This is of course annecdotal but you get the point. Throughout this article I will try to link to resources if you want to read further about _the other 80%_ after you have whet your appetite.
+This article will layout a few maxims, you can go from **0% effective at testing** to **~80% effective at testing**. 
+
+The [Pareto Principle][pareto] is also called the 80/20 rule. You get 80% of the effect from 20% of the effort, whilst the last 20% of effect requires _the other 80% effort_. This is of course annecdotal but you get the point. Throughout this article I will try to link to resources if you want to read further about _the other 80%_ after you have whet your appetite.
 
 Ok, here are the maxims:
 

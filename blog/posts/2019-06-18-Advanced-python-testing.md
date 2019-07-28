@@ -1,6 +1,7 @@
 ---
 title:  "Advanced Python Testing"
 date:   2019-06-18 10:21:44 +1000
+image: /images/books.jpg
 description: "Documenting the rabbit hole of testing tools and options in Python"
 categories: dev
 ---
