@@ -7,7 +7,9 @@ categories: dev
 
 <img style="float:right; align: right;" :src="$withBase('/images/vim-bonsai.svg')" alt="Animated Bonsai Image" />
 
-# Introduction
+# {{$page.title}}
+
+<span style="color: #999;">{{$page.readingTime.text}}...</span>
 
 The Vim bonsai logo I have made here is a symbol of my vim journey and my dotfiles.
 It all starts with a seed and then you nurture it and also prune it for your 

@@ -5,7 +5,9 @@ description: "A rant on Corporate Proxies causing an oxymoron of security practi
 categories: security
 ---
 
-# Context
+_{{$page.readingTime.text}}_
+
+# {{$page.title}}
 
 God damn corporate proxies.... The oxymoron of security practices. 
 

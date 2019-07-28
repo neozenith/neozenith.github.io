@@ -1,6 +1,7 @@
 ---
 title:  "Advanced Python Testing"
 date:   2019-06-18 10:21:44 +1000
+image: /images/books.jpg
 description: "Documenting the rabbit hole of testing tools and options in Python"
 categories: dev
 ---
@@ -12,7 +13,10 @@ categories: dev
 />
 </div>
 
-# Overview
+
+# {{$page.title}}
+
+<span style="color: #999;">{{$page.readingTime.text}}...</span>
 
 This article is mostly for me to process my thoughts but also to pave a path for anyone that wants to follow a similar journey on some more advanced python testing topics.
 
