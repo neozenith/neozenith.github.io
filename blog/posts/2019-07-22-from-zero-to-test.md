@@ -16,6 +16,8 @@ categories: dev
 
 # {{$page.title}}
 
+<span style="color: #999;">{{$page.readingTime.text}}...</span>
+
 I strongly believe you can do a lot with very little when developing software and you don't have to know 100% to have learnt enough to be effective. 
 
 The same is true when automating tests.

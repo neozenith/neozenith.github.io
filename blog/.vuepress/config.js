@@ -6,6 +6,7 @@ module.exports = {
   ],
   plugins: [
     '@vuepress/last-updated',
+    'vuepress-plugin-reading-time',
     '@vuepress/google-analytics',
     {
       'ga': 'UA-144735544-1'

@@ -13,7 +13,10 @@ categories: dev
 />
 </div>
 
+
 # {{$page.title}}
+
+<span style="color: #999;">{{$page.readingTime.text}}...</span>
 
 This article is mostly for me to process my thoughts but also to pave a path for anyone that wants to follow a similar journey on some more advanced python testing topics.
 

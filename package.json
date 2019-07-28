@@ -25,6 +25,7 @@
     "vuepress": "^1.0.2"
   },
   "dependencies": {
-    "@limdongjin/vuepress-plugin-simple-seo": "^1.0.4-alpha.5"
+    "@limdongjin/vuepress-plugin-simple-seo": "^1.0.4-alpha.5",
+    "vuepress-plugin-reading-time": "^0.1.1"
   }
 }
