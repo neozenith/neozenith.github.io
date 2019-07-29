@@ -37,19 +37,15 @@ Source: https://media.giphy.com/media/TPFsF6Gxu2cM0/giphy.gif
 
 </div>
 
-# Context
+# Notes
+
+ - Data Stakeholders
+    - The business (quality/security)
+    - The customer (privacy/roi?)
+    - The government (compliance)
 
 
 
-## Stage 1 - 
-
-## Stage 2 - 
-
-## Stage 3 - 
-
-## Stage 4 - 
-
-## Stage 5 -
 
 # Conclusion
 
@@ -58,6 +54,7 @@ Source: https://media.giphy.com/media/TPFsF6Gxu2cM0/giphy.gif
  - [The Civis Guide to Analytics Maturity][civis]
  - [Linear Digressions: Assessing the Analytics Maturity of an Organisation][lindigressions]
  - [MHR Analytics: Data Maturity][mhranalytics]
+ - [Capability Maturity Model][cmm]
 
 [civis]: https://www.civisanalytics.com/wp-content/uploads/2018/11/The-Civis-guide-to-Analytics-Maturity-2.pdf
 [lindigressions]: http://lineardigressions.com/episodes/2018/5/20/assessing-the-analytics-maturity-of-an-organization
@@ -74,3 +71,4 @@ Source: https://media.giphy.com/media/TPFsF6Gxu2cM0/giphy.gif
 [cmmi]: https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration
 [cim]: https://en.wikipedia.org/wiki/Capability_Immaturity_Model
 [cmmi-dmm]: https://cmmiinstitute.com/dmm
+[cmmi-dmm-slides]: https://cdn.ymaws.com/www.globalaea.org/resource/collection/68814379-BF7E-41C8-B152-18A617F9C0AA/Data_Management_Maturity_Model_Introduction_-_Dec_12_2014.pdf
