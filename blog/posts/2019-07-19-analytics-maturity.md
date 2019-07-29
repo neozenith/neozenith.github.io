@@ -69,3 +69,5 @@ Source: https://media.giphy.com/media/TPFsF6Gxu2cM0/giphy.gif
 [lod-gartner]: https://www.lightsondata.com/data-governance-maturity-models-gartner/
 [lod-oracle]: https://www.lightsondata.com/data-governance-maturity-models-oracle/
 [lod-oun]: https://www.lightsondata.com/data-governance-maturity-models-open-universiteit-nederland/
+[lod-scorecard]: https://www.lightsondata.com/data-governance-scorecard-free-template/
+[cmm]: https://en.wikipedia.org/wiki/Capability_Maturity_Model
