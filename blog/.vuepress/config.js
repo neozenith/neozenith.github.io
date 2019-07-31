@@ -7,17 +7,21 @@ module.exports = {
   plugins: [
     '@vuepress/last-updated',
     'vuepress-plugin-reading-time',
-    '@vuepress/google-analytics',
-    {
-      'ga': 'UA-144735544-1'
-    },
-    '@limdongjin/vuepress-plugin-simple-seo', {
-      default_image: '/images/books.jpg',
-      root_url: 'https://joshpeak.net',
-      default_site_name: 'Josh Peak - Data Scientist',
-      twitter_creator: '@_neozenith',
-      twitter_site: '@_neozenith'
-    }
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-144735544-1'
+      }
+    ],
+    [
+      '@limdongjin/vuepress-plugin-simple-seo', {
+        default_image: '/images/books.jpg',
+        root_url: 'https://joshpeak.net',
+        default_site_name: 'Josh Peak - Data Scientist',
+        twitter_creator: '@_neozenith',
+        twitter_site: '@_neozenith'
+      }
+    ]
   ],
   themeConfig: {
       nav: [
