@@ -10,9 +10,9 @@ DIST_DIR=dist
 
 # Build
 if [[ $OSTYPE == msys* ]]; then
-  env PYTHON=/c/Python27/ winpty npm.cmd run build
+  env PYTHON=/c/Python27/ winpty yarn.cmd run build
 else
-  npm run build
+  yarn run build
 fi
 
 # Create distribution folder

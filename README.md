@@ -20,8 +20,14 @@ Which is what I'd like to do more of with embedding D3 visualisations in compone
 ### Developing
 
 ```bash
-npm install
-npm run dev
+yarn install
+yarn run dev
+```
+
+On Windows Git Bash:
+```bash
+env PYTHON=/c/Python27/ winpty yarn.cmd install
+winpty yarn.cmd run dev
 ```
 
 ### Publishing
