@@ -1,14 +1,14 @@
 ---
 title:  "Intro to ML: Regression Workshop"
 date:   2019-09-12 
-image: /images/books.jpg
+image: /images/nerd_books.jpg
 description: "Introductory workshop materials to work through two regression tasks predicting prices of diamonds and houses."
 categories: dev
 ---
 
 <div align=center>
 <img
-  :src="$withBase('/images/books.jpg')"
+  :src="$withBase('/images/nerd_books.jpg')"
   alt="Reference books on my desk"
 />
 </div>
@@ -18,12 +18,19 @@ categories: dev
 
 <span style="color: #999;">{{$page.readingTime.text}}...</span>
 
+This workshop aims to introduce some machine learning and data science principles. 
+By sourcing the datasets, and using Google Colab, the barriers to getting started are lowered.
+
+There is a fully worked example using the classic *Diamonds* dataset.
+
+After that it's up to the students to work through the same steps in their own time on the *Boston House* prices dataset.
+
+Finally there are links to resources that can setup the students up to slake their thirst for statistics and machine learning further.
+
 # Requirements
 
  - Google Drive [Personal account](https://www.google.com/intl/en-GB/drive/) (it's free)
  - [Google Colaboratory](https://www.google.com/intl/en-GB/drive/)
- - https://colab.research.google.com/drive/1_NwD8kvxPnZdbSTUBvWJDrOnMF4sZgjS
- - https://colab.research.google.com/drive/1paL-BNJz-la-99LtH8cCUzfmMe5EESdt
 
 # Slides
 
