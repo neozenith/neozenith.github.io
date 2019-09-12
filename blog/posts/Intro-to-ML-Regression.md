@@ -30,7 +30,7 @@ Finally there are links to resources that can setup the students up to slake the
 # Requirements
 
  - Google Drive [Personal account](https://www.google.com/intl/en-GB/drive/) (it's free)
- - [Google Colaboratory](https://www.google.com/intl/en-GB/drive/)
+ - [Google Colaboratory](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)
 
 # Slides
 
