@@ -1,7 +1,7 @@
 ---
 title:  "PyTest Coaching Post-Mortem: How to Win Friends and Influence Testing Culture"
 date:   2019-10-23-22 
-image: /images/books.jpg
+image: /images/blog-header.jpg
 description: "A post-mortem on delivering training and coaching the team to apply testing practices."
 categories: dev
 ---
