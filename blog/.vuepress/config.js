@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Josh Peak - ☕ Release Valve',
-  description: 'Software Engineer | Data Scientist | IoT Data Geek',
+  description: 'Data Scientist | Software Engineer | IoT Data Geek',
   head: [
       ['link', { rel: 'icon', href: `/images/favicon.ico` }]
   ],
