@@ -186,7 +186,7 @@ The task in the workshop was simple enough and well structured.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/a9_0UUUNt-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-I shared this video on [Code Review Best Practices - Trisha Gee][codereview] with the team as (in my opinion) it is the canonical explanation of how code reviews can have different purposes.
+I shared this video on [Code Review Best Practices - Trisha Gee][codereviews] with the team as (in my opinion) it is the canonical explanation of how code reviews can have different purposes.
 
  - Gate Keeping
  - Draft Proposals (early feedback)
@@ -205,11 +205,116 @@ We checked our ego's at the door and worked as a team.
 
 # Coaching Psychology 
 
-Now that I have covered the key events, I want to layer on some of the Coaching Psychology theory to this narrative.
+Now that I have covered the key events, I want to layer on some of the [Coaching Psychology][coaching-psych-wiki] theory to this narrative.
 
-## Trans-Theoretical Model (TTM)
+The coach-client relationship is key to providing just enough guidance to let the client *self-actualise*. In fact Coaching Psychology assumes everyone wants to self improve given the opportunity. 
+
+So the coach-client relationship needs to be more than intellectually empathetic but emotionally empathetic as well, since you are about to go on a growth journey together. So that requires, trust, respect, patience and empathy.
+
+## GROW Model
+
+> 1. **G**oals
+> 1. **R**eality
+> 1. **O**bstacles
+> 1. **W**ay Forward
+
+The [GROW model][grow-model], also comes up in the well known [Manager Tools: "Basics" - Coaching][managertools-basics] but under the acronym GRPA: Goals-Resources-Plan-Action.
+
+I've started reading [Measure What Matters][measure-matters], and they describe a similar idea with Google's format of OKR's or *Objectives and Key Results*.
+
+They all have the idea of taking a journey.
+
+Let's set a *Goal* or an *Objective* which is an aspirational compass bearing.
+
+But you need to assess where you are starting from.
+
+So what is our *Reality* and/or *Resources* that we will need?
+
+Then we need to identify *Obstacles* and concrete steps in a *Way Forward* 
+
+The version in Manager Tools stipulates that the *Actions* or *Way Forward* should be a [SMART goal][smart-goal]. With more emphasis on the **Measurable** and **Time bound**.
+
+These two aspects are what close the loop with the coach-client relationship to give that feedback and reinforcement cycle on the journey.
+
+Keeping in mind that behavioural changes take at least 1-2 months but we also do not have infinite time either.
+
+The measurable part is interesting, because a vector has two parts, a magnitude and an orientation. So we measure the magnitude of our progress but we also check that we are still progressing along the correct compass bearing. While we are at it, lets check if that compass bearing is still the right direction at all! We may need need to pivot and change the direction after a while and that's totally valid.
+
+So after some coaching from my team lead suggesting I use the GROW model on my self, I sat down and applied the GROW model to figure out how I needed to GROW to become an effective technical leader. Which is what surfaced all of the coaching psychology research.
+
+I didn't formally apply it to the team but kept the *vector of growth* analogy in the back of my mind and tried to make sure everyone's vectors were aligned and pointing the same way and removed obstacles where possible.
+
+## Transtheoretical model (TTM)
+
+The [ProChange][ttm-prochange] website has excellent coverage of TTM as it applies to affecting postive health changes like quitting smoking and weight loss.
+
+<div align=center>
+<img
+  :src="$withBase('/images/ttm.png')"
+  alt="Curvy line from bottom left to top right with circular markers for each of the five stages of change."
+/>
+</div>
+
+> 1. Precontemplation (not ready)
+> 1. Contemplation (getting ready)
+> 1. Preparation (ready)
+> 1. Action
+> 1. Maintenance
+
+There is also a sixth stage of termination where the changed behaviour has served it's purpose and transition out of using it. We will disregard that for this coverage.
+
+TTM is more than the listed **stages of change**. There are 10+ **processes of change** but I'll let you read about those on your own.
+
+Two of the key outcomes for TTM are **Decisional Balance** and **Self Efficacy**.
+
+The idea is that the balance sheet of Pros and Cons are tipped in favor of the new behaviour. This is forming a new attitude and internal dialogue.
+
+The **Self-Efficacy** is the measure of how consistently do they chose the new behaviour instead of relapsing to old behaviours in times of stress or tight deadlines. How well does the **Decisional Balance** stand up when there are new cons thrown at it?
+
+This is where the coach comes in for those times when someone is unsure or at risk, they will seek guidance on "Why are we writing tests?" or "I have a tight deadline, can I skip writing these tests?"
+
+Remind them of the short term deadline versus the long term benefits of automating the work. Often management use the "I'm the boss" card and engineer forget they have a responsibility to build robust systems.
+
+Of course there is a pragmatic trade-off, but the push back from engineering has to be more than zero.
+
+Next we will talk about how the TTM stages of change map to ADKAR scores.
+
+## ADKAR Scores
+
+The [ADKAR score][adkar-score] is away of assessing where someone is at in the stages of change. 
 
 
+> 1. **Awareness** of the need to change.
+> 1. **Desire** to support the change.
+> 1. **Knowledge** of how to change.
+> 1. **Ability** to demonstrate skills and behaviours.
+> 1. **Reinforcement** to make the change.
+
+The idea being to rate each of these five aspects on a scale of 1-5 and if any are a 3 or lower stop there.
+
+For example:
+
+1. I am aware I drink too much coffee (5), 
+1. I do not desire to change my coffee behaviours (1)
+1. I know how to change my coffee consumption behaviour (4)
+1. I have previously demonstrated skills to change coffee consumption over 9 months (4)
+1. I have no accountability to reinforce that behaviour right now (1).
+
+Focusing on giving me knowledge and skills to reduce my coffee consumption won't make a difference because an earlier score is low. I have no desire.... 
+
+Lucky for me, my team had seen enough issues creep into production AND manual testing was time consuming and painful. They had also seen, by example, the momentum I had developing the new library thus far with automated testing.
+
+So they score high for *awareness* and *desire*. 
+
+So the workshop was designed to seed them with *knowledge*.
+
+The homework task was designed to give them opportunity to demonstrate *ability*.
+
+The code review sessions were designed to *reinforce* the knowledge, skills and behaviours.
+
+So let's just say that if they were not *aware* or did not *desire* change...
+
+That is a much harder problem to solve and worthy of another blog post when the day comes that I run into that. 
 
 # Results
 
@@ -230,6 +335,20 @@ We have caught many bugs where *"It worked on my computer"* but not on CI becaus
 
 We have a process for seeding new learning across the team but also a mechanism to reinforce those learnings and keep each other accountable.
 
+# Bonus
+
+I have thrown in the reading list three other books that I have had recommended to me and I'm sure have impacted me and my ability to deliver on interpersonal effectiveness:
+
+ - [Radical Candor - Kim Scott][radical-candor]
+ - [Team of Teams - General Stanley McChrystal][team-of-teams]
+ - [Extreme Ownership - Jocko Willink and Leif Babin][extreme-ownership]
+
+All three deal with a variety of real life situations from the battle field to the office. All are about how to handle interpersonal dynamics as well on handling conflict in a healthy and tension diffusing way.
+
+Handy arrows to have in your quiver.
+
+I'm always looking for recommendations around these topics to fill up my reading backlog so reach out to me on twitter or linkedin if you have suggestions on where I should read next.
+
 # Conclusion
 
 Coaching and technical leadership is a really rewarding challenge that I hadn't quite expected in my career. It also requires a lot of long range thinking as the time it takes to change people's behaviours is measured in weeks and months. I have become too used to computers doing what I want in seconds and minutes. 
@@ -245,6 +364,7 @@ Have fun testing!
 ## Psychology
 
  - [Transtheoretical Model][ttm-wiki]
+ - [ADKAR score][adkar-score]
 
 ## Podcasts
 
@@ -253,12 +373,27 @@ Have fun testing!
 ## Books
 
  - [Leaders Eat Last - Simon Sinek][sinek-leaders]
+ - [Measure What Matters - John Doerr][measure-matters]
+ - [Radical Candor - Kim Scott][radical-candor]
+ - [Team of Teams - General Stanley McChrystal][team-of-teams]
+ - [Extreme Ownership - Jocko Willink and Leif Babin][extreme-ownership]
 
 [ttm-wiki]: https://en.wikipedia.org/wiki/Transtheoretical_model
+[ttm-prochange]: https://www.prochange.com/transtheoretical-model-of-behavior-change
+[smart-goal]: https://en.wikipedia.org/wiki/SMART_criteria
 [sinek-leaders]: https://www.amazon.com.au/Leaders-Eat-Last-Together-Others/dp/1543614620
 [tnc-86]: https://testandcode.com/86
 [codereviews]: https://www.youtube.com/watch?v=a9_0UUUNt-Y
 [managertools-basics]: https://www.manager-tools.com/manager-tools-basics
+[adkar-score]: https://www.prosci.com/adkar/adkar-model
+[coaching-psych-wiki]: https://en.wikipedia.org/wiki/Coaching_psychology
+[coach-grow-wiki]: https://en.wikipedia.org/wiki/Coaching_psychology#GROW
+[grow-model]: https://en.wikipedia.org/wiki/GROW_model
+[measure-matters]: https://www.whatmatters.com/
+[radical-candor]: https://www.radicalcandor.com/the-book/
+[team-of-teams]: https://www.amazon.com.au/Team-Teams-Rules-Engagement-Complex/dp/B01IBYQXIY/
+[extreme-ownership]: https://www.amazon.com.au/Extreme-Ownership/dp/B07HP9XVFC/
+
 
 [pareto]: https://en.wikipedia.org/wiki/Pareto_principle
 [refactoring-book]: https://martinfowler.com/books/refactoring.html
