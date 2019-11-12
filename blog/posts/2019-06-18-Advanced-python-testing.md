@@ -179,7 +179,7 @@ It's funny how to motivate people about code quality though.
 
 Person to person nag them and they'll ignore you. 
 
-However a bot that flat out blocks their PR until it they perform some basic code hygiene, whilst a boss is breathing down their neck to hit timelines.... and then it gets done.
+However a bot that flat out blocks their PR until they perform some basic code hygiene, whilst a boss is breathing down their neck to hit timelines.... and then it gets done.
 
 I like to call this _getting someone stuck between a boss and a not so hard place_.
 
@@ -237,7 +237,7 @@ This is the part where you confirm your expectations. Aim for proprty based aspe
 
 One of the best inventions in the last few years are autoformatters. I think it started with [`gofmt`](https://golang.org/cmd/gofmt/) but then that idea ported to javascript with [`prettier`](https://prettier.io/).
 
-What it does is actually genius. It will compile your code down to the [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) which is valid program devoid of whitespace, indents and other cruft. It then uses that to create your source code again in a consistent style that it produces the same AST!
+What it does is actually genius. It will compile your code down to the [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) which is valid program devoid of whitespace, indents and other cruft. It then uses that to create your source code again in a consistent style that produces the same AST!
 
 So to anyone that says "I don't like things that change my code." Well, to a computer it hasn't changed.
 
@@ -584,7 +584,7 @@ So you can inject a spy into the flow of your normal code and access these extra
 
 ## Be Kind and Rewind
 
-Now that I have laid out all of that foundational knowledge, and to be honest it was a truck load that took me months to ramp up to we add these lines:
+Now that I have laid out all of that foundational knowledge — and to be honest it was a truck load that took me months to ramp up to — we add these lines:
 
 ```bash
 pip install pytest-vcr
