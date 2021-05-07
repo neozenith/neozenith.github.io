@@ -21,12 +21,11 @@
     "url": "https://github.com/neozenith/neozenith.github.io/issues"
   },
   "homepage": "https://github.com/neozenith/neozenith.github.io#readme",
-  "devDependencies": {
-    "vuepress": "^1.0.2"
-  },
+  "devDependencies": {},
   "dependencies": {
     "@limdongjin/vuepress-plugin-simple-seo": "^1.0.4-alpha.5",
     "@vuepress/plugin-google-analytics": "^1.0.3",
+    "vuepress": "^1.8.2",
     "vuepress-plugin-reading-time": "^0.1.1"
   }
 }
